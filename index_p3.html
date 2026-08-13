@@ -1,0 +1,142 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <!-- Setting character Set for the Web-->
+        <meta charset="UTF-8"> 
+        <!-- Setting the Author-->
+        <meta name="author" content="CO Pascua"> 
+        <!-- Setting Refresh Rate 30secs-->
+        <meta http-equiv="refresh" content="30"> 
+        <!-- Setting of device viewport - auto scale-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        
+        <title>Tables and List</title>
+        <link rel="icon" type="image/x-icon"
+            href="Hektakun-Pokemon-395-Empoleon.ico">
+
+        <style>
+            table, th, td {
+                border: 1px solid black;
+            }
+        </style>    
+
+        </head>
+        <body>
+            <h1>Favicon</h1>
+            <h1>Tables</h1>
+                <hr>
+                <h2>table, th (table head), 
+                    td (table data), tr (table row)
+                </h2>
+                <h2>
+                    Groupings thead, tbody, tfoot
+                </h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>No.</th>
+                            <th>Student Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Gorio</td>
+                            <td>22</td>
+                            <td>Female</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Gonzalo</td>
+                            <td>18</td>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Jay Nagwapo</td>
+                            <td>18</td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Gloria</td>
+                            <td></td>
+                            <td>Female</td>
+                            <td>Ok ako</td>
+                            <td>Ok siya</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            <h1>Lists</h1>
+                <h2>Ordered List, 
+                    Unordered List, 
+                    Description List</h2>
+
+                <h2> Grocery Items</h2>
+                <ol>
+                    <li>Shampoo</li>
+                    <li>Saba</li>
+                    <li>Matcha</li>
+                </ol>
+
+                <h2>Unordered List (Farm)</h2>
+                <ul>
+                    <li>Giraffe</li>
+                    <li>Baka</li>
+                    <li>Gako</li>
+                </ul>
+
+                <h2>Description</h2>
+                <dl>
+                    <dt>Aircon</dt>
+                    <dd>- Air Conditioning Unit</dd>
+                    <dt>ISP</dt>
+                    <dd>- Internet Service Provider</dd>
+                </dl>
+            <h1>Buttons</h1>
+                <hr>
+                <button>Ok Na</button>
+                <button disabled>This Disabled Btn</button>
+                <button onclick="alert('This is an example of onclick')">
+                    Try Me
+                </button>
+
+            <h1>Media</h1>
+                <h2>Images</h2>
+                    <img src="img/totodile background.jpg" width="50%"> <!--importing of images-->
+                    <!--Measurements 
+                            px => ABSOLUTE 
+                            % in percentage => DYNAMIC 
+                        -->
+                    <img src="img/pokemon-squirtle.gif" width="50%" alt="Squirtle Laughing">
+                
+                <h2>Video</h2>
+                    <video src="video/pokemonViolet.mp4" controls width="75%" autoplay>
+                    </video>
+
+                    <video controls width="75%" autoplay>
+                        <source src="video/pokemonViolet.mp4" type="video/mp4">
+                    </video>
+
+                <h2>Audio</h2>
+                    <audio src="audio/pokemon_route_1.mp3" controls>
+                    </audio>
+
+            <h1>Links</h1>
+                <hr>
+                <!--1. Text, 2. Button, 3. Image-->
+                <a href="index_p4.html">FOLLOW NEXT PAGE</a>
+
+                <button onclick="document.location='index_p4.html'">
+                    NEXT PAGE MANEN
+                </button>
+
+                <a href="index_p4.html">
+                 <img src="Hektakun-Pokemon-395-Empoleon.ico" width="200px">
+                </a>
+        </body>
+    </html>
