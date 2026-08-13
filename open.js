@@ -1,2 +1,3 @@
-console.log("Version 1");
-console.log("Hello Mamaclay");
+console.log("Version 2.5");
+console.log("Hello Bagarinao");
+console.log("Hello Biag!");
